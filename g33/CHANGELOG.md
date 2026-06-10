@@ -4,6 +4,11 @@ This module adds custom G33 code to the µCNC parser. This similar to Linux CNC 
 
 ## Changelog
 
+### 2026-06-106
+
+- improved threading synchronization speed
+- fixed threading synchronization status was not reset after a soft reset
+
 ### 2026-04-06
 
 - new math motion equations to produce an accurate pitch threading start synchronization
